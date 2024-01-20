@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Give+You+Glory&family=Gluten:wght@100..900&family=Neucha&family=Sedgwick+Ave+Display&display=swap');
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #2c497f   ;
+    --secondary-color: #fe4a49 ;
+    --accent1-color: #009fb7;
+    --accent2-color: #fed766;
+
+    --heading-font: 'Sedgwick Ave Display', cursive;
+    --paragraph-font: "Neucha", cursive;
+
+    --nav-link-color: white;
+    --nav-background-color: #2c497f ;
+    --nav-hover-link-color: #fed766;
+    --nav-hover-background-color: #fe4a49 ;
+}
+body {
+    font-family: var(--parragraph-font);
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+  }
+
+    h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+
+  header {
+    padding: 20px;
+    text-align: center;
+    background-color: var(--accent1-color);
+  }
+  
+  p {
+    padding: 25px;
+  }
+
+  nav  {
+    background-color: var(--nav-background-color);
+    text-decoration: none;
+    padding: 1rem;
+  }
+  nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }

@@ -122,7 +122,7 @@ h1, h2 {
     font-family: var(--p-font);
   }
 
-.hero {
+div.hero {
     position: relative;
     display:block;
 }
@@ -131,7 +131,11 @@ h1, h2 {
     width:100%;
     height:auto;
     display: block;
-    position: relative;
+
+}
+article {
+    display: block;
+    position: absoute;
 }
 .hero h1 {
     display:block;
@@ -141,14 +145,13 @@ h1, h2 {
     position: absolute;
  }
 
-.hero article {
+/*.hero article {
     display:block;
     width: 1000px;
-    position: absolute;
- }
+ }*/
 .hero article img {
-    margin-top: 5px;
-    width: 100px;
+    margin-top: 15px;
+    width: 200px;
     height: auto;
     float: right;
     box-shadow: 0 0 30px gray;
@@ -166,7 +169,6 @@ h1, h2 {
     padding: 1rem;
     background-color: #ddd;
     color: #000;
-    position:absolute;
 }
 
 .box img {
@@ -174,7 +176,6 @@ h1, h2 {
     width: 200px;
     height: auto;
     float: right;
-    position:absolute;
 }
   /*nav  {
     background-color: var(--nav-background-color);

@@ -38,21 +38,10 @@ button{
     font-size: 1.2em;
 }
 
-textarea{
-    height: 30%;
-    width: 60%;
+textarea, input, select {
+    height: 50px;
+    width: 400px;
     box-sizing: border-box;
-}
-
-input {
-    height: 30%;
-    width: 60%;
-    box-sizing: border-box;
-  }
-
-  select{
-    height: 30%;
-    width: 60%;
-    box-sizing: border-box;
+    font-size: .8em;
     text-align: center;
-  }
+}

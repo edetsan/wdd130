@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+    background: #b58ab5;
+
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+legend{
+    margin: 1rem;
+}
+
+form{
+    width: 650px;
+    margin: 0 auto;
+    border: 2px solid rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    background-color: rgb(211, 204, 226);
+    padding: 1rem;
+    text-align: center;
+}
+
+button{
+    background-color: rgb(80, 50, 143);
+    width: 110px;
+    border: 2px solid rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    padding: 1rem;
+    color: whitesmoke;
+}

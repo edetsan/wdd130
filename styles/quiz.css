@@ -6,10 +6,8 @@
 
 body{
     font-family: Georgia, serif;
-    font-size: 1.2em;
+    font-size: 1.3em;
     background: #b58ab5;
-
-
 }
 h1{
     display: flex;
@@ -32,9 +30,29 @@ form{
 
 button{
     background-color: rgb(80, 50, 143);
-    width: 110px;
+    width: 180px;
     border: 2px solid rgba(0, 0, 0, .1);
     border-radius: .5rem;
     padding: 1rem;
     color: whitesmoke;
+    font-size: 1.2em;
 }
+
+textarea{
+    height: 30%;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+input {
+    height: 30%;
+    width: 60%;
+    box-sizing: border-box;
+  }
+
+  select{
+    height: 30%;
+    width: 60%;
+    box-sizing: border-box;
+    text-align: center;
+  }

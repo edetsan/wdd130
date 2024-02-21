@@ -484,7 +484,7 @@ a {
 
 .expectations {
   display: grid;
-  grid-template-columns: repeat (1fr, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(3, 1fr);
 }
 

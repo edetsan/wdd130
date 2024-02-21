@@ -369,12 +369,10 @@ button{
 .trips{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repreat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
 }
 
 .halfdaypic, .fulldaypic, .threedaypic {
-  max-width: auto;
-  max-height: 200px;
   grid-row: 3/4;
   display: flex;
   justify-content: center;
@@ -486,7 +484,7 @@ a {
 
 .expectations {
   display: grid;
-  grid-template-columns: 1fr, 1fr;
+  grid-template-columns: repeat (1fr, 1fr);
   grid-template-rows: repeat(3, 1fr);
 }
 
